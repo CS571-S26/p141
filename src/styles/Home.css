@@ -1,0 +1,10 @@
+.profile {
+    border: 2px solid #111;
+    border-radius: 12px;
+}
+
+.profile-body {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
