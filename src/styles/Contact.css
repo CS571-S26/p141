@@ -1,0 +1,78 @@
+.contact {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.page-header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.job-card {
+    border-radius: 16px;
+    border: 2px solid #6e6e6e;
+}
+
+.job-status {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.job-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.job-text {
+    font-size: 12px;
+    color: grey !important;
+}
+
+.availability-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #22c55e;
+    flex-shrink: 0;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.contact-grid {
+    margin-top: 16px;
+}
+
+.contact-body {
+    display: flex;
+    align-items: center;
+    gap: 12px;    
+}
+
+.contact-card {
+    border-radius: 16px;
+    margin-top: 16px;
+    border: 2px solid #6e6e6e;
+    cursor: pointer;
+}
+
+.contact-card:hover {
+    border: 2px solid #20aaff;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.info-card {
+    margin-top: 16px;
+}
+
+.info-body {
+    border-radius: 16px;
+    border: 2px solid #6e6e6e;
+}

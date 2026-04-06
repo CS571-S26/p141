@@ -100,8 +100,13 @@
     border: 2px solid #20aaff;
 }
 
+.section-card .card-title {
+    font-weight: 600;
+}
+
 .about-me {
     padding-left: 32px;
     padding-right: 32px;
     text-indent: 2em;
+    line-height: 1.8;
 }
