@@ -50,10 +50,23 @@ export default function Home() {
             <Card className='profile'>
                 <Card.Body className='profile-body'>
                     <Card.Text className='about-me'>
-                        My name is Chupeng Xiong, a student at The University of Madison-Wisconsin and a first generation Hmong college student.
+                        My name is Chupeng Xiong, a student at The University of Madison-Wisconsin and a first generation Hmong college student. 
+                        I was born and raised in Madison, Wisconsin.
+                        Growing up, I loved both science and art, and frequently watched documentaries with my dad late at night.
+                        Unfortunately, there was not many opportunities where art also coincide with science and this left me in a bit of a conundrum.
+                        In school, both of those topics were often separated into different studies and often did not overlap with one another.
+                        Luckily for me, I was also an avid gamer growing up.
+                        This allowed me to be more aware of programming as a sort of art form.
+                        You see, what really pulled me towards art was the sense of creation that comes with it, and programming allowed for this while also allowing me to use my talent of science and math.
+                        Of course, while I had a strong interest towards programming, this does not mean I had zero struggles in this field.
+                        I first started seriously studying programming through my last two years of highschool, but during this time period school was shut down due to Covid-19.
+                        Through online classes, I struggled to understand core concepts of programming and was greatly out of my depth at the time.
+                        I fell behind compared to my other classmates and really struggled with the idea of continuing this career choice.
+                        Fortunately, I stuck through and as time passed I began catching back up to my peers and eventually thriving in my computer science studies.
                     </Card.Text>
                 </Card.Body>
             </Card>
+            <h2 className='page-section'></h2>
         </div>
     )
 }
