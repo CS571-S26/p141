@@ -1,0 +1,31 @@
+.interests {
+    margin: 0 32px;
+}
+
+.interest-section {
+    background: rgb(50, 50, 50);
+    border: 1px solid #6e6e6e;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+}
+
+.interest-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.interest-title {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.interest-toggle {
+    color: white;
+    font-size: 14px;
+}

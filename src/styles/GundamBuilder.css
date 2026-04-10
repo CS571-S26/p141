@@ -1,0 +1,49 @@
+.gundam-card {
+    background: rgb(50, 50, 50);
+    border: 1px solid #6e6e6e;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 16px 32px;
+}
+
+.gundam-title {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.gundam-txt {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+.gundam-piece {
+    cursor: grab;
+    position: absolute;
+}
+
+.gundam-piece:active {
+    cursor: grabbing;
+}
+
+.build-area {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: rgb(40, 40, 40);
+    border: 2px dashed #555;
+    border-radius: 12px;
+}
+.placed-piece {
+    position: absolute;
+}
+
+.gundam-complete {
+    margin-top: 16px;
+    text-align: center;
+    color: #22c55e;
+    font-size: 18px;
+    font-weight: 600;
+}
