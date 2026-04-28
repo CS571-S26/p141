@@ -42,7 +42,7 @@ export default function Home() {
                     <Col key={section.title} xs={12} sm={6} md={6} lg={3}>
                         <Card className='section-card' onClick={() => navigate(section.path)}>
                             <Card.Body className='section-body'>
-                                <div className='image_container'>
+                                <div className='section-img-container'>
                                     <img src={section.img} alt={section.title} className='section_image'/>
                                 </div>
                                 <div>

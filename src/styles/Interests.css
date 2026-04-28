@@ -2,15 +2,32 @@
     margin: 0 32px;
 }
 
-.interest-section {
+.sub-header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding-left: 32px;
+}
+
+.interest-text {
+    padding-left: 32px;
+    padding-right: 32px;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+
+.gundam-section {
     background: rgb(50, 50, 50);
     border: 1px solid #6e6e6e;
     border-radius: 16px;
     padding: 20px 24px;
     margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
 }
 
-.interest-header {
+.gundam-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,14 +35,52 @@
     user-select: none;
 }
 
-.interest-title {
+.gundam-title {
     color: white;
     font-size: 18px;
     font-weight: 600;
     margin: 0;
 }
 
-.interest-toggle {
+.gundam-toggle {
     color: white;
     font-size: 14px;
+}
+
+.reading-sub-header {
+    font-size: 18px;
+    color: rgb(192, 192, 192);
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding-left: 48px;
+}
+
+.reading-text {
+    padding-left: 48px;
+    padding-right: 48px;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+
+.image_container {
+    width: 100%;
+    gap: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+.book-section {
+    background: rgb(50, 50, 50);
+    border: 1px solid #6e6e6e;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book_images {
+    height: 400px;
+    width: 33.333%;
+    object-fit: contain;
 }

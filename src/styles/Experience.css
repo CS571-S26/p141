@@ -112,3 +112,33 @@
     font-size: 24px;
     font-weight: 600;
 }
+
+.bubble-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 48px;
+}
+
+.bubble-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.bubble-toggle {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bubble-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}

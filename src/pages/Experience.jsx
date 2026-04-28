@@ -15,7 +15,10 @@ import linuxIcon from '../assets/Experience/linux_logo.png'
 import gitIcon from '../assets/Experience/git_logo.png'
 
 import '../styles/Experience.css'
+import BubbleCanvas from '../components/Bubble'
 export default function Experience() {
+
+  const [bubbleOpen, setBubbleOpen] = useState(false)
 
   const jobs = [
     {
@@ -95,6 +98,17 @@ export default function Experience() {
         </Carousel.Item>
       ))}
     </Carousel>
+
+    <hr className='section-divider' />
+    <div className='bubble-dropdown'>
+      <button
+        className='bubble-toggle'
+        onClick={() => setBubbleOpen(!bubbleOpen)}
+      >
+      Bubble {bubbleOpen ? '▲' : '▼'}
+      </button>
+      {bubbleOpen && <BubbleCanvas/>}
+    </div>
   </div>
   )
 }
